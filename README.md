@@ -20,6 +20,6 @@ dependencyResolutionManagement {
 In build.gradle for your project module include this line:
 ```
 dependencies {
-    implementation 'com.sharinpix.webview:sharinpixwebview-android:LATEST_VERSION'
+    implementation 'com.github.SharinPix:sharinpixwebview-android:LATEST_VERSION'
 }
 ```
