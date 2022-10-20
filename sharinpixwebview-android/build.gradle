@@ -9,8 +9,8 @@ android {
     defaultConfig {
         minSdk 21
         targetSdk 32
-        versionCode 211
-        versionName "2.1.1"
+        versionCode 212
+        versionName "2.1.2"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -41,10 +41,9 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
-
                 groupId = 'com.github.SharinPix'
                 artifactId = 'sharinpixwebview-android'
-                version = '0.0.0'
+                version = '2.1.2'
             }
         }
     }
