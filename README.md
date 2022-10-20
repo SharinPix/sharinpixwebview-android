@@ -65,7 +65,7 @@ protected void onActivityResult(int requestCode, int resultCode, @Nullable Inten
 }
 ```
 
-### Creating an Instance of SharinPixWebView
+## Creating an Instance of SharinPixWebView
 
 Parameters:
 - Activity: the main activity from which your WebView
@@ -76,7 +76,7 @@ Parameters:
 this.sharinPixWebView = new SharinPixWebView(MainActivity.this, R.id.webView, "https://app.sharinpix.com/?token=XXXXX");
 ```
 
-### Implementing the SharinPixWebView Listener
+## Implementing the SharinPixWebView Listener
 
 ```
 this.sharinPixWebView.setOnResultListener(new SharinPixWebView.OnResultListener() {
