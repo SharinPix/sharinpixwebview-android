@@ -41,7 +41,7 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.github.SharinPix'
+                groupId = 'com.sharinpix.webview.SharinPix'
                 artifactId = 'sharinpixwebview-android'
                 version = '2.1.4'
             }

@@ -1,7 +1,5 @@
 # sharinpixwebview-android
 
-[![](https://jitpack.io/v/SharinPix/sharinpixwebview-android.svg)](https://jitpack.io/#SharinPix/sharinpixwebview-android)
-
 An android library for allowing users to use the SharinPix application(app.sharinpix.com) in a custom WebView that allow the user to capture images using camera and upload images using file picker.
 
 ## Steps for Installing SharinPixWebView Library
@@ -14,7 +12,7 @@ dependencyResolutionManagement {
         .
         .
         .
-        maven { url 'https://jitpack.io' }
+        mavenCentral()
     }
 }
 ```
@@ -22,7 +20,7 @@ dependencyResolutionManagement {
 In build.gradle for your project module include this line:
 ```
 dependencies {
-    implementation 'com.github.SharinPix:sharinpixwebview-android:LATEST_VERSION'
+    implementation 'com.sharinpix.webview:sharinpixwebview-android:LATEST_VERSION'
 }
 ```
 
