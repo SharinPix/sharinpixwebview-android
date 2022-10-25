@@ -1,5 +1,7 @@
 # sharinpixwebview-android
 
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.github.SharinPix/sharinpixwebview-android/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.github.SharinPix/sharinpixwebview-android)
+
 An android library for allowing users to use the SharinPix application(app.sharinpix.com) in a custom WebView that allow the user to capture images using camera and upload images using file picker.
 
 ## Steps for Installing SharinPixWebView Library
