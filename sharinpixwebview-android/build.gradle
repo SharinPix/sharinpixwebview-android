@@ -10,8 +10,8 @@ android {
     defaultConfig {
         minSdk 21
         targetSdk 32
-        versionCode 215
-        versionName "2.1.5"
+        versionCode 216
+        versionName "2.1.6"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -43,7 +43,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'io.github.SharinPix'
                 artifactId = 'sharinpixwebview-android'
-                version = '2.1.5'
+                version = '2.1.6'
                 pom {
                     signing {
                         sign publishing.publications.release

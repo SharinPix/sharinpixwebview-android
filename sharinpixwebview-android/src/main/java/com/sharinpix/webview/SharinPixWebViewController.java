@@ -16,9 +16,11 @@ class SharinPixWebViewController {
     @JavascriptInterface
     public boolean postMessage(String message) throws JSONException {
         Log.d("WebViewController", message);
-        JSONObject jsonObject = new JSONObject(message);
-        if (onResultListener != null) {
-            this.onResultListener.onResult(jsonObject);
+        if (message != null && !message.equals("undefined")) {
+            JSONObject jsonObject = new JSONObject(message);
+            if (onResultListener != null) {
+                this.onResultListener.onResult(jsonObject);
+            }
         }
         return false;
     }
